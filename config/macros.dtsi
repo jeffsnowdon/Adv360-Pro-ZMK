@@ -2,19 +2,19 @@ macro_cut: macro_cut{
 compatible = "zmk,behavior-macro";
 label = "macro_cut";
 #binding-cells = <0>;
-bindings = <&kp X>;
+bindings = <&kp LC(X)>;
 };
 macro_redo: macro_redo{
 compatible = "zmk,behavior-macro";
 label = "macro_redo";
 #binding-cells = <0>;
-bindings = <&kp Y>;
+bindings = <&kp LC(Y)>;
 };
 macro_undo: macro_undo{
 compatible = "zmk,behavior-macro";
 label = "macro_undo";
 #binding-cells = <0>;
-bindings = <&kp Z>;
+bindings = <&kp LC(Z)>;
 };
 macro_save: macro_save{
 compatible = "zmk,behavior-macro";
